@@ -1,22 +1,36 @@
 import { defineConfig } from 'vitepress'
+import basicsSidebar from '../Basics/wiki.ts';
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "ISBN Product Security Wiki",
   description: "Wiki for sharing knowledge in the team.",
+  head: [['link',  {rel: 'icon', href: '/Home/Images/SAP_Logo.svg' }]],
   themeConfig: {
+    editLink: {
+      pattern: 'https://github.com/JoaoCaumo/ISBN-Wiki/tree/main/:path',
+      text: 'Edit this page'
+    },
+    lastUpdated: { text: 'Last updated' },
+    footer: {
+      message: 'Footer text ...',
+      copyright: 'I am a footer '
+    },
+    logo: {
+      src: '/Home/Images/SAP_Logo.svg',
+      alt: 'ISBN Product Security Wiki Logo',
+    },
     outline: { level: [2,3], label: 'On this page' },
-//    nav: [
-//      { text: 'Home', link: '/Home/' },
-//      { text: 'Examples', link: '/markdown-examples' }
-//   ],
+    nav: [
+      { text: 'Home', link: '/Home/' },
+      { text: 'Wiki', link: '/WikiHome' }
+   ],
 
     sidebar: [
       {
         text: 'ISBN Product Security Wiki',
         items: [
-          { text: 'Home', link: '/Home/' },
-          { text: "Creating & Changing documentation", link: '/CreatingDocumentation/' },
+          { text: 'Home', link: '/WikiHome/' },
+          { text: "Creating & Changing documentation", link: '/Contributing/' },
           {
             text: 'Basics',
             collapsed: true,
@@ -36,12 +50,22 @@ export default defineConfig({
           { text: 'Runbooks',
             collapsed: true,
             items: [
-              { text: 'Vulnerability Management', link: '/Runbooks/VulnerabilityManagement' },
               { text: 'Security Incident Management', link: '/Runbooks/IncidentManagement' },
               { text: 'Security Requirements', link: '/Runbooks/Requirements' },
               { text: 'Security Reviews', link: '/Runbooks/SecurityReviews' },
             ]
           },
+        { text: 'Vulnerability Management',
+            collapsed: true,
+            items: [
+            { text: 'Overview & Policy', link: '/VulnerabilityManagement/OverviewAndPolicy' },
+            { text: 'SLAs & Severity Matrix', link: '/VulnerabilityManagement/SLAs' },
+            { text: 'Discovery (Scanners & Feeds)', link: '/VulnerabilityManagement/Discovery' },
+            { text: 'Exception / Risk Acceptance', link: '/VulnerabilityManagement/Exceptions' },
+            { text: 'Remediation & Mitigations', link: '/VulnerabilityManagement/RemediationAndMitigations' },
+            { text: 'Tools & Resources', link: '/VulnerabilityManagement/ToolsAndResources' },
+            ]
+        },
           {
             text: 'Knowledge Base',
             collapsed: true,
@@ -61,11 +85,14 @@ export default defineConfig({
             ]
           }
         ]
-      }
+      },
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+      { icon: 'github', link: 'https://github.com/JoaoCaumo/ISBN-Wiki' }
+    ],
+    search: {
+      provider: 'local'
+    }
   }
 })
