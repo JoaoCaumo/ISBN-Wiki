@@ -20,7 +20,6 @@ Our core stack centers on **Jira** for task visibility and control, with **Splun
 The team's main communication happens via **Microsoft Teams**; we have three meeting with the whole team per week, to share findings and updates.
 
 ## Next Steps
-Now that you know the basics, you should take a look at the [Accesses](/Basics/Onboarding/Accessess) and [Trainings](/Basics/Onboarding/Trainings) pages.
 
 # Accesses
 This section is dedicated to ensuring you have all accesses you may need to start your journey in our team.
