@@ -30,8 +30,18 @@
   box-shadow: 0 2px 10px rgba(255, 255, 255, 0.06);            
 }
 
-/* Header configuration */
-.content[data-v-cf6e7c5e] {
-  flex-grow: 1;
+/* Header configuration 
+.VPNav {
+  background-color: var(--vp-sidebar-bg-color)!important;
+}
+*/
+.VPHome {
+  margin-bottom: 0!important;
 }
 
+
+/* Footer configuration */
+.vp-doc {
+  padding: 0!important;
+  max-width: 3000px!important;
+}
