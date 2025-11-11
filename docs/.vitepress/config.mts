@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: "ISBN Product Security",
+  base: '/ISBN-Wiki/',
   description: "Wiki for sharing knowledge in the team.",
   head: [['link',  {rel: 'icon', href: '/Home/Images/SAP_Logo.svg' }]],
   themeConfig: {
