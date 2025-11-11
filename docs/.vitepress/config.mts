@@ -4,7 +4,7 @@ export default defineConfig({
   title: "ISBN Product Security",
   base: '/ISBN-Wiki/',
   description: "Wiki for sharing knowledge in the team.",
-  head: [['link',  {rel: 'icon', href: '/Home/Images/SAP_Logo.svg' }]],
+  head: [['link',  {rel: 'icon', href: '/Images/SAP_Logo.svg' }]],
   themeConfig: {
     editLink: {
       pattern: 'https://github.com/JoaoCaumo/ISBN-Wiki/tree/main/docs/:path',
@@ -12,12 +12,12 @@ export default defineConfig({
     },
     lastUpdated: { text: 'Last updated' },
     logo: {
-      src: '/Home/Images/SAP_Logo.svg',
+      src: '/Images/SAP_Logo.svg',
       alt: 'ISBN Product Security Wiki Logo',
     },
     outline: { level: [2,3], label: 'On this page' },
     nav: [
-      { text: 'Home', link: '/Home/' },
+      { text: 'Home', link: '/' },
       { text: 'Wiki', link: '/WikiHome' }
    ],
 
