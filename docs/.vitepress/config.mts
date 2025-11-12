@@ -74,8 +74,12 @@ export default defineConfig({
           ]},
           { text: 'Automation Projects', link: '/AutomationProjects/' },
           { text: 'Continuos Improvement & Knowledge Sharing', collapsed: true, items: [
-            { text: 'Lessons Learned', link: '/ContinuousImprovement/LessonsLearned' },
-            { text: 'Projects' , link: '/ContinuousImprovement/Projects' },
+            { text: 'Lessons Learned', link: '/ContinuousImprovement/LessonsLearned', collapsed: true, items: [
+              { text: 'Example I Learned', link: '/ContinuousImprovement/LessonsLearned/LessonExample' },
+            ]},
+            { text: 'Projects' , link: '/ContinuousImprovement/Projects', collapsed: true, items: [
+              { text: 'This Project Was awesome', link: '/ContinuousImprovement/Projects/ProjectExample' },
+            ]},
             { text: 'Roadmap & Initiatives', link: '/ContinuousImprovement/Roadmap' },
             { text: 'Trainigs, Certifications & Resources', link: '/ContinuousImprovement/Trainings' },
           ]},
