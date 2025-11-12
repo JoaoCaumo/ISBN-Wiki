@@ -16,13 +16,13 @@ hero:
 # Features section
 features:
   - icon: 
-      src: /Images/Book.svg
+      src: Images/Book.svg
       alt: Book
     title: Operations & Runbooks
     details: A centralized reference for day-to-day security operations. It defines our planning and reporting cadence, captures step-by-step procedures for routine and incident scenarios, clarifies process ownership, and provides vetted automation and vulnerability analyses to reduce toil and drive issues to closure.
     link: /Operations/OpsCalendar
   - icon: 
-      src: /Images/Organization.svg
+      src: /docs/Images/Organization.svg
       alt: Team
     title: About the Team
     details: Who we are and how to work with us. This section introduces the team’s mission and scope, lists our primary security goals, and shows how we’re organized (roles, structure, and decision rights).
