@@ -22,25 +22,25 @@ features:
     details: A centralized reference for day-to-day security operations. It defines our planning and reporting cadence, captures step-by-step procedures for routine and incident scenarios, clarifies process ownership, and provides vetted automation and vulnerability analyses to reduce toil and drive issues to closure.
     link: /Operations/OpsCalendar
   - icon: 
-      src: /Images/Organization.svg
+      src: /Organization.svg
       alt: Team
     title: About the Team
     details: Who we are and how to work with us. This section introduces the team’s mission and scope, lists our primary security goals, and shows how we’re organized (roles, structure, and decision rights).
     link: /AboutTheTeam/TeamOverview
   - icon: 
-      src: /Images/DataFlow.svg
+      src: /DataFlow.svg
       alt: DataFlow
     title: Data Flows & Repositories
     details: A clear map of where our security data lives and how it moves—from sources to pipelines to storage and reporting. It defines owners, refresh cadences, and quality checks so analyses are repeatable, auditable, and aligned across engineering, operations, and leadership.
     link: /DataFlowsAndRepositories
   - icon: 
-      src: /Images/Policy.svg
+      src: /Policy.svg
       alt: Policies
     title: Governance
     details: The guardrails for how we operate securely. This section centralizes policy references and control requirements, defines SLA standards and decision rights, and outlines audit & evidence practices for internal/external reviews. 
     link: /Governance/GlobalPolicy
   - icon: 
-      src: /Images/LoBs.svg
+      src: /LoBs.svg
       alt: L.o.B
     title: LoB's Architecture
     details: A live view of our systems by line of business. It centralizes key diagrams, data flows, and dependencies, maps scanning coverage and known exceptions/risks, and provides context for design reviews, threat modeling, and faster incident investigation and change decisions.
