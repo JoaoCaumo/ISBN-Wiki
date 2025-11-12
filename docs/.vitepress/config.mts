@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: "ISBN Product Security",
-  outDir: '../public',
+//  outDir: '../public',
   base: '/ISBN-Wiki/',
   description: "Wiki for sharing knowledge in the team.",
   head: [['link',  {rel: 'icon', href: '/Images/SAP_Logo.svg' }]],
