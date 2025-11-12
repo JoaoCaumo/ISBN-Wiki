@@ -16,13 +16,13 @@ hero:
 # Features section
 features:
   - icon: 
-      src: Images/Book.svg
+      src: /Book.svg
       alt: Book
     title: Operations & Runbooks
     details: A centralized reference for day-to-day security operations. It defines our planning and reporting cadence, captures step-by-step procedures for routine and incident scenarios, clarifies process ownership, and provides vetted automation and vulnerability analyses to reduce toil and drive issues to closure.
     link: /Operations/OpsCalendar
   - icon: 
-      src: /docs/Images/Organization.svg
+      src: /Images/Organization.svg
       alt: Team
     title: About the Team
     details: Who we are and how to work with us. This section introduces the team’s mission and scope, lists our primary security goals, and shows how we’re organized (roles, structure, and decision rights).
@@ -46,7 +46,7 @@ features:
     details: A live view of our systems by line of business. It centralizes key diagrams, data flows, and dependencies, maps scanning coverage and known exceptions/risks, and provides context for design reviews, threat modeling, and faster incident investigation and change decisions.
     link: /LoBArchitecture/Diagrams
   - icon: 
-      src: /Images/Automation.svg
+      src: /Automation.svg
       alt: Automation
     title: Automation Projects
     details: In-flight automations and scripts that reduce toil and cycle time. It documents business value, owners, and current status, provides usage instructions and guardrails, and explains how to request enhancements or contribute safely through reviews and testing.
