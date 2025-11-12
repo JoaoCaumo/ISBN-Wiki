@@ -28,11 +28,11 @@ features:
     details: Who we are and how to work with us. This section introduces the team’s mission and scope, lists our primary security goals, and shows how we’re organized (roles, structure, and decision rights).
     link: /AboutTheTeam/TeamOverview
   - icon: 
-      src: /DataFlow.svg
-      alt: DataFlow
-    title: Data Flows & Repositories
-    details: A clear map of where our security data lives and how it moves—from sources to pipelines to storage and reporting. It defines owners, refresh cadences, and quality checks so analyses are repeatable, auditable, and aligned across engineering, operations, and leadership.
-    link: /DataFlowsAndRepositories
+      src: /Share.svg
+      alt: Sharing Knowledge
+    title: Continuos Improvement & Knowledge Sharing
+    details: Knowledge hub where each teammate shares what they learned from real projects, initiatives, and trainings. Entries capture context, problem → approach → outcome, key takeaways, pitfalls to avoid, and reusable artifacts (queries, scripts, slides). 
+    link: /ContinuousImprovement/LessonsLearned.md
   - icon: 
       src: /Policy.svg
       alt: Policies

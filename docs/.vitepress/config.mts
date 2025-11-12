@@ -79,6 +79,7 @@ export default defineConfig({
             { text: 'Roadmap & Initiatives', link: '/ContinuousImprovement/Roadmap' },
             { text: 'Trainigs, Certifications & Resources', link: '/ContinuousImprovement/Trainings' },
           ]},
+          { text: 'Wiki Guide & Maintenance', link: '/WikiGuide/' },
         ]
       },
     ],
