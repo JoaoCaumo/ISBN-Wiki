@@ -6,4 +6,4 @@ Use this wiki for all relevant documentation related to ISBN Product Security Te
 
 For new hires, check our
 
-Navigate with the sidebar through the resources available.
+Navigate with the sidebar through the resources available. Edit
